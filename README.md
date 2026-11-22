@@ -1,7 +1,7 @@
-Enterprise RAG Assistant
+**Enterprise RAG Assistant**
 A Retrieval-Augmented Generation (RAG) application that answers questions from PDF documents using semantic search and Gemini.
 
-Features
+**Features**
 PDF document ingestion
 Text chunking
 Sentence embeddings using Sentence Transformers
@@ -19,7 +19,7 @@ Requests
 Architecture
 Document PDF ↓ Text Extraction ↓ Chunking ↓ Embeddings ↓ FAISS Vector Store ↓ Semantic Search ↓ Retrieved Context ↓ Gemini ↓ Final Answer
 
-Project Structure
+**Project Structure**
 enterprise-rag-assistant/
 │
 ├── app.py
@@ -28,7 +28,7 @@ enterprise-rag-assistant/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-Setup
+**Setup**
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
